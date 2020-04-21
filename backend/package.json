@@ -1,0 +1,29 @@
+{
+  "name": "backend-template",
+  "version": "1.0.0",
+  "description": "nodejs/mongodb setup template",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegogallegos4/react-nodejs-starter.git"
+  },
+  "author": "Diego Gallegos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegogallegos4/react-nodejs-starter/issues"
+  },
+  "homepage": "https://github.com/diegogallegos4/react-nodejs-starter#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0"
+  }
+}
